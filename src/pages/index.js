@@ -17,12 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-black h-screen w-screen flex flex-col items-center">
-        <h1 className="text-3xl text-center text-white font-bold bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text">
+        <h1 className="text-3xl text-center font-bold bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 text-transparent bg-clip-text">
           Code analyzer
         </h1>
         <form className="mt-8 w-full max-w-[1200px] h-[300px]">
         <label
-          for="UserEmail"
+          htmlFor="Code"
           class="block h-full overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
         >
           <span class="text-xl font-medium text-gray-700 dark:text-gray-200">
