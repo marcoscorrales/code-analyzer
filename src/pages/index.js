@@ -23,9 +23,9 @@ export default function Home() {
         <form className="mt-8 w-full max-w-[1200px] h-[300px]">
         <label
           htmlFor="Code"
-          class="block h-full overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
+          className="block h-full overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
         >
-          <span class="text-xl font-medium text-gray-700 dark:text-gray-200">
+          <span className="text-xl font-medium text-gray-700 dark:text-gray-200">
             Código
           </span>
 
